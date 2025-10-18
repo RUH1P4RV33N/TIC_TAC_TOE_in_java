@@ -27,19 +27,82 @@ A **console-based Tic Tac Toe game in Java** that allows two players to play on 
 ---
 
 ## Example
-
+```
 +================================+
 |          TIC TAC TOE           |
 +================================+
-Enter the Board Size (2-n): 3
-Enter PlayerA Name: Alice
-Enter PlayerB Name: Bob
+Enter the Board Size (2-n)
+3
++---+---+---+
+|   |   |   |
++---+---+---+
+|   |   |   |
++---+---+---+
+|   |   |   |
++---+---+---+
 
+Enter PlayerA Name:
+Alice
+Enter PlayerB Name: 
+Bob
+
++================================+
+|     LET'S PLAY TIC TAC TOE     |
++================================+
+      Alice (X) vs Bob (O)
+
+Alice: Enter the coordinates of the row and column
+0 0
++---+---+---+
+| X |   |   |
 +---+---+---+
 |   |   |   |
 +---+---+---+
 |   |   |   |
 +---+---+---+
+Bob: Enter the coordinates of the row and column
+1 1
++---+---+---+
+| X |   |   |
++---+---+---+
+|   | O |   |
++---+---+---+
 |   |   |   |
 +---+---+---+
-Alice: Enter the coordinates of the row and column: 0 0
+Alice: Enter the coordinates of the row and column
+0 2
++---+---+---+
+| X |   | X |
++---+---+---+
+|   | O |   |
++---+---+---+
+|   |   |   |
++---+---+---+
+Bob: Enter the coordinates of the row and column
+1 2
++---+---+---+
+| X |   | X |
++---+---+---+
+|   | O | O |
++---+---+---+
+|   |   |   |
++---+---+---+
+Alice: Enter the coordinates of the row and column
+0 1
++---+---+---+
+| X | X | X |
++---+---+---+
+|   | O | O |
++---+---+---+
+|   |   |   |
++---+---+---+
+Game Has Ended.
++====================================+
+|          CONGRATULATIONS!!         |
++====================================+
+Alice Has Won!!!
+ /\_/\
+( o.o )
+ > ^ <
+```
+
