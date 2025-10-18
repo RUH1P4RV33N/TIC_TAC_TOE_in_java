@@ -1,4 +1,4 @@
-# Tic Tac Toe (Dynamic Board Size)
+# Tic Tac Toe
 
 A **console-based Tic Tac Toe game in Java** that allows two players to play on a dynamically sized square board. Play the classic game on any board size of 2×2 or larger.
 
